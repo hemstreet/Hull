@@ -17,4 +17,4 @@ application and enter your token in the file `config/config.json`
     {
       "token" : "123456789"
     } 
-``
+```
