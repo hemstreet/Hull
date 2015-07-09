@@ -5,13 +5,17 @@ var prompt = require('cli-prompt'),
 
 var hull = {
 
+    analytics : false,
     mixpanel : null,
 
-    init: function() {
+    init: function(config) {
 
         var config = require('./config/config.json');
 
-        this.mixpanel = Mixpanel.init(config.token);
+        if(config.token !== undefined) {
+            this.analytics = true;
+            this.mixpanel = Mixpanel.init(config.token);
+        }
 
         this.prompt();
 
@@ -34,7 +38,9 @@ var hull = {
             "command" : command
         };
 
-        this.track(command.split(" ")[0], data);
+        if(this.analytics) {
+            this.track(command.split(" ")[0], data);
+        }
 
         exec(command);
     },
