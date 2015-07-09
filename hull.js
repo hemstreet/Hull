@@ -37,7 +37,6 @@ var hull = {
     },
     track: function(name, data) {
 
-        console.log(name, data);
         this.mixpanel.track(name, data);
 
     }
