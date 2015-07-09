@@ -4,7 +4,7 @@
     <br/>
 </p>
 <h3>
-Javascript command line interface to allow for real time analytics using Mixpanel. 
+Cli tool that provides real time analytics
 </h3> 
 Setup
 ---
