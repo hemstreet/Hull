@@ -1,6 +1,6 @@
-<h3 align="center">
+<h2 align="center">
     Hull
-</h3>
+</h2>
 
 <p align="center">
   <img src="resources/logo.png" alt="Hull Logo"/>
