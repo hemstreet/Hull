@@ -1,15 +1,11 @@
-<h1 align="center">
-    Hull
-</12>
-
 <p align="center">
     <br/>
     <img src="resources/logo.png" alt="Hull Logo"/>
     <br/>
 </p>
-
+<h3>
 Javascript command line interface to allow for real time analytics using Mixpanel. 
- 
+</h3> 
 Setup
 ---
 
