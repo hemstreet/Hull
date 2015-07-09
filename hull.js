@@ -18,15 +18,18 @@ var hull = {
     },
     prompt: function() {
 
-        prompt('$ ', function (command) {
-            console.log('');
-            this.execute(command);
-            console.log('');
-            this.prompt();
+        exec('pwd', function(code, output) {
+            prompt( '> ', function (command) {
+                this.execute(command);
+                this.prompt();
+
+            }.bind(this));
         }.bind(this));
+
 
     },
     execute: function(command) {
+
         var data = {
             "command" : command
         };

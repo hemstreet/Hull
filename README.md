@@ -12,7 +12,7 @@ Setup
 To get setup, signup for Mixpanel ( currently supported analytics platform ). Create a new
 application and enter your token in the file `config/config.json` 
 ```
-    {
-      "token" : "123456789"
-    } 
+{
+  "token" : "123456789"
+} 
 ```
