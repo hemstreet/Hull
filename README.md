@@ -4,7 +4,7 @@
     <br/>
 </p>
 <h3>
-Cli tool that provides real time analytics
+Cli tool that provides real time analytics using Mixpanel
 </h3> 
 Setup
 ---
