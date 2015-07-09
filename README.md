@@ -16,3 +16,9 @@ application and enter your token in the file `config/config.json`
   "token" : "123456789"
 } 
 ```
+
+How to run
+---
+
+To start the script run: 
+`node hull.js`
