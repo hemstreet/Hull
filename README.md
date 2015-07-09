@@ -1,9 +1,11 @@
-<h2 align="center">
+<h1 align="center">
     Hull
-</h2>
+</12>
 
 <p align="center">
-  <img src="resources/logo.png" alt="Hull Logo"/>
+    <br/>
+    <img src="resources/logo.png" alt="Hull Logo"/>
+    <br/>
 </p>
 
 Javascript command line interface to allow for real time analytics using Mixpanel. 
